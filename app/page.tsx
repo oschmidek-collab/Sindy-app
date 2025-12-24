@@ -205,7 +205,7 @@ export default function Page() {
                   cursor: "pointer",
                 }}
               >
-                האם את צודקת
+                בדקי את עצמך
               </button>
 
               <button
@@ -222,7 +222,7 @@ export default function Page() {
                   cursor: "pointer",
                 }}
               >
-                בחני את עצמך
+               מד צדק גולבאלי 
               </button>
             </div>
           </div>
@@ -434,7 +434,7 @@ export default function Page() {
                 opacity: bLoading ? 0.8 : 1,
               }}
             >
-              {bLoading ? "בודקים..." : "בדקי אותי"}
+              {bLoading ? "בודקים..." : "בדקי "}
             </button>
 
             {bAnswer && (
